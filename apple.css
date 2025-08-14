@@ -1,0 +1,569 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    gap: 24px;
+    background-color: rgb(250, 250, 250);
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+
+
+.menu img {
+    cursor: pointer;
+}
+
+.a {
+    display: flex;
+    gap: 24px;
+}
+
+.menu_tablet {
+    display: none;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+}
+
+
+
+
+
+
+
+
+
+.bg {
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.bg-img1 {
+    display: none;
+}
+
+
+
+
+.bg1 {
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.bg2 {
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.first_part {
+    display: flex;
+    aspect-ratio: 1920/692;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.inner_text1 {
+    margin-top: 55px;
+}
+
+.text_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    color: white;
+    gap: 10px;
+}
+
+.button_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    font-size: 100px;
+    height: 44px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.inner_text1 button {
+    border: 2px solid #0071E3;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.second_part {
+    display: flex;
+    aspect-ratio: 1920/692;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+
+
+
+
+.third_part {
+    display: flex;
+    aspect-ratio: 1920/692;
+    justify-content: center;
+}
+
+.third_part button {
+    border: 3px solid #0071E3;
+    border-radius: 999px;
+    cursor: pointer;
+    background-color: #0071E3;
+    color: white;
+    width: 114px;
+    height: 44px;
+}
+
+.inner_text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.text_div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.button_div1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+.fourth_part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.fourth_part>div {
+    display: flex;
+    width: 49%;
+    height: 580px;
+    position: relative;
+    padding-top: 12px;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.items_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_image1 {
+    margin-top: 50px;
+}
+
+.container_text1 {
+    margin-top: 9px;
+    font-family: "Inter", sans-serif;
+}
+
+.container_button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.buttons1 {
+    border: 2px solid #0071E3;
+    border-radius: 999px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.container_text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    font-weight: 400;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.container_button2 {
+    display: flex;
+    margin-top: 10px;
+    gap: 16px;
+}
+
+.container_image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 58px;
+    font-family: "Inter", sans-serif;
+}
+
+.container_text3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    font-family: "Inter", sans-serif;
+}
+
+.container_text4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    font-family: "Inter", sans-serif;
+}
+
+.colorful_text {
+    margin-top: 360px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(90deg,
+            rgba(40, 170, 222, 1) 0%,
+            rgba(175, 87, 199, 1) 40%,
+            rgba(235, 64, 38, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+.scroll_part {
+    display: flex;
+    overflow-x: scroll;
+    padding: 15px;
+    gap: 15px;
+}
+
+.scroll_part img {
+    width: 1250px;
+    height: 668px;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.bottom_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding-top: 15px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.bottom_part>div {
+    position: relative;
+    height: 236px;
+    display: flex;
+    flex-shrink: 0;
+    width: 417px;
+}
+
+.bottom_part img {
+    position: absolute;
+    width: 100%;
+    height: 236px;
+    z-index: -1;
+}
+
+.container_text5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.container_image3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 145px;
+    padding-bottom: 30px;
+}
+
+.container_text6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.weird_button_that_does_nothing_apparently {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.weird_button_that_does_nothing_apparently .the_circle_around_it {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: grey;
+    border-radius: 100%;
+}
+
+
+
+
+
+/* ------------------------------ */
+
+@media only screen and (max-width: 1024px) {
+
+    .menu {
+        justify-content: space-between;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .menu>a {
+        display: none;
+    }
+
+    .menu_tablet {
+        display: block;
+    }
+
+
+
+
+    .info {
+        padding: 10px 30px 10px 30px;
+    }
+
+
+
+
+
+
+    .first_part {
+        aspect-ratio: 85/96;
+    }
+
+    .first_part img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+
+
+
+    .second_part {
+        aspect-ratio: 85/96;
+    }
+
+    .second_part img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+
+
+
+    .third_part {
+        aspect-ratio: 85/96;
+    }
+
+    .third_part img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+
+    .scroll_part img {
+        width: 100vw;
+        height: 100%;
+    }
+
+}
+
+
+/* ---------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+
+
+    .bg {
+        display: none;
+    }
+
+    .bg-img1 {
+        display: block;
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .first_part {
+        aspect-ratio: 0.46/1;
+        align-items: end;
+    }
+
+    .inner_text1 {
+        margin-bottom: 120px;
+    }
+
+
+
+
+
+
+
+    .second_part {
+        aspect-ratio: 0.46/1;
+        margin-bottom: 10px;
+    }
+
+
+    .third_part {
+        display: none;
+    }
+
+
+
+
+    .fourth_part {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: auto;
+        height: 100%;
+    }
+
+    .fourth_part>div {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    .scroll_part img {
+        width: 100vw;
+        height: 100%;
+    }
+
+
+
+
+    .items_2>div {
+        width: 100vw;
+    }
+
+}
